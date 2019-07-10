@@ -1,5 +1,5 @@
 #ifndef INTVECTOR_H
-#define INTVECTOR_H 
+#define INTVECTOR_H
 
 #include <iostream>
 #include <stdexcept>
@@ -11,7 +11,7 @@ class IntVector{
 		unsigned sz;
 		unsigned cap;
 		int* data;
-   
+
 	public:
 		IntVector();
 		IntVector(unsigned size, int value = 0);
@@ -38,12 +38,12 @@ class IntVector{
 // 		void clear();
 // 		void resize(unsigned size, int value = 0);
 // 		void reserve(unsigned n);
-		
+
 // 		void list() const;
   
 // 	private:
 // 		void expand();
-// 		void expand(unsigned amount); 
+// 		void expand(unsigned amount);
   
 };
 #endif
