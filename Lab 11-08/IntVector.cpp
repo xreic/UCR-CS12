@@ -34,6 +34,7 @@ const int& IntVector::at(unsigned index) const{
 		throw out_of_range("IntVector::at_range_check");
 	return data[index];
 }
+
 /*
 int& IntVector::at(unsigned index){
 	if(index >= sz)
@@ -64,17 +65,21 @@ void IntVector::erase(unsigned index){
 	sz -= 1;
 }
 */
+
 const int& IntVector::front() const{
 	return data[0];
 }
+
 /*
 int& IntVector::front(){
 	return data[0];
 }
 */
+
 const int& IntVector::back() const{
 	return data[sz - 1];
 }
+
 /*
 int& IntVector::back(){
 	return data[sz - 1];
