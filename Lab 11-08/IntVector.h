@@ -37,6 +37,6 @@ class IntVector{
 // 		void list() const;
 // 	private:
 // 		void expand();
-// 		void expand(unsigned amount);
+// 		void expand(unsigned amount); 
 };
 #endif
