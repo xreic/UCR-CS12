@@ -1,5 +1,5 @@
 #ifndef INTVECTOR_H
-#define INTVECTOR_H
+#define INTVECTOR_H 
 
 #include <iostream>
 #include <stdexcept>
