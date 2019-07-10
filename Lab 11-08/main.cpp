@@ -2,13 +2,6 @@
 
 int main(){
 	unsigned int size, value, index = 0;
-	/*
-	unsigned int index, insertValue;
-	unsigned int eraseIndex;
-	unsigned int assignSize, assignValue;
-	unsigned int pushBack;
-	unsigned int resizeSize, resizeValue;
-	*/
 
 	cout << "Size: ";
 	cin >> size;
