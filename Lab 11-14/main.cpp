@@ -28,6 +28,7 @@ int main(){
     list1.display();
     cout << endl;
    }
+	
    cout << "list1 destructor called" << endl;
 
    return 0;
